@@ -1,0 +1,28 @@
+.product{
+    text-align:left;
+    border:1px solid wheat;
+    padding: 5%;
+    margin-top:5%;
+    background-color:whitesmoke;
+    position:relative;
+}
+
+.expand-button{
+    position:absolute;
+    right:5%;
+    top:10%;
+    background-color:wheat;
+    border: none;
+    padding:5px 10px;
+    cursor:pointer;
+    font-size:1.5em;
+}
+.product h2{
+    color: goldenrod;
+    font-family: 'Oleo Script', 'cursive';
+    font-size:2.5em
+}
+
+.info-expanded-false{
+    display:none;
+}

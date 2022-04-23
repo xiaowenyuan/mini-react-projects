@@ -1,0 +1,29 @@
+.filter-container{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.filter-options{
+    list-style-type:none;
+    display: inline-flex;
+    text-transform: capitalize;
+    text-align:left;
+    padding-left:0;
+    margin-left:0;
+    left:0;
+    justify-content:space-evenly;
+}
+
+.filter-options li{
+    border:1px solid wheat;
+    background-color: whitesmoke;
+    padding:1% 2%;
+    border-radius:15%;
+    cursor: pointer;
+}
+
+.active-filter{
+    background-color:wheat !important;
+    color: #222;
+}
